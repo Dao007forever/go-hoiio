@@ -26,8 +26,8 @@ The HoiioRestClient needs your Hoiio credentials. You must pass these directly t
 ```go
 import . "go-hoiio/impl"
 
-appid := 'YOUR_APPID_HERE'
-token := 'YOUR_TOKEN_HERE'
+appid := "YOUR_APPID_HERE"
+token := "YOUR_TOKEN_HERE"
 client := NewClient(appid, token)
 ```
 
